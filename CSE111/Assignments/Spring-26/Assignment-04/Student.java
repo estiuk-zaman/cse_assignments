@@ -11,7 +11,7 @@ public class Student {
         this.name=name;
         this.id=id;
         this.dept=dept;
-        System.out.println("Student obj is created");
+        System.out.println("Student object is created");
      }
      
      public void setPassword(String pass){
