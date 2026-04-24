@@ -11,7 +11,7 @@ public class Lab_Task_02 {
   }
 }
 
-public class Student{
+ class Student{
   private String name = "Just a Student"; 
   private String department = "nothing";
   
