@@ -1,0 +1,28 @@
+public class Lab_Task_04 {
+    public static void main(String[] args) {
+    Cricket_Tournament ct1 = new Cricket_Tournament();
+    System.out.println(ct1.info());
+    System.out.println("-----------------------");
+    
+    Cricket_Tournament ct2 = new Cricket_Tournament("IPL", 10, "t20");
+    System.out.println(ct2.info());
+    System.out.println("-----------------------");
+    
+    Tennis_Tournament tt = new Tennis_Tournament("Roland Garros", 128);
+    System.out.println(tt.info());
+  }
+}
+
+ class Tournament {
+  private String name;
+  public Tournament() {
+    this.name = "Default";
+  }
+  public Tournament(String name) {
+    this.name = name;
+  }
+  public String getName(){
+    return "Tournament Name: "+name;
+  }
+
+}
