@@ -2,7 +2,9 @@ public class Tester
 {
     public static void main(String[]args)
     {
-        C c1 = new C();
-        c1.method4();
+        Dog d1 = new Dog("Rover", "Brown");
+        //d1.bark();
+        d1.eat();
+        
     }
 }
