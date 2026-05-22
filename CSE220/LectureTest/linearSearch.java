@@ -1,4 +1,4 @@
-public class FindTarget {
+public class linearSearch {
 
     public static void main(String[] args) {
         int [] arr = {11,17,18,45,50,71,95};
