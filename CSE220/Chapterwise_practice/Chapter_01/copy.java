@@ -1,4 +1,3 @@
-package CSE220.Chapterwise_practice.Chapter_01;
 
 public class copy {
     public static void main(String[] args) {
