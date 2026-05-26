@@ -20,7 +20,7 @@ public class Array2D {
          System.out.println("Sum of elements of primary diagonal is: " + Array2D.addPrimaryDiagonal(d));
          System.out.println("*".repeat(10)); //This will print the sum of primary diagonal elements
         System.out.println("Sum of elements of secondary diagonal is: " + Array2D.addSecondaryDiagonal(d));
-        System.out.println("*".repeat(10)); //This will print the sum of secondary diagonal elements
+        System.out.println("*".repeat(10)); //This will print the sum of secondary diagonal elements//
 
         int[][] matrix1 = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
         int[][] matrix2 = {{9, 8, 7}, {6, 5, 4}, {3, 2, 1}};
